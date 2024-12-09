@@ -10,31 +10,31 @@
     <header class="item header">
         <div class="title">
             <h2>
-                DailyTask
+                DayliNotes
             </h2>
         </div>
         <button id="mode-toggle" class="mode-toggle">🌙</button>
     </header>
     <main class="container">
-        <div class="container-flex item contenido">
-            <h1>Calendario de Tareas</h1>
-    
+        <div class="contenido">
             <div id="taskForm">
+                <h1>DayliNotes</h1>
                 <input type="date" id="taskDate" required>
                 <input type="text" id="taskDescription" placeholder="Descripción de la tarea" required>
                 <button id="addTaskBtn">Agregar Tarea</button>
             </div>
     
-            <h2>Tareas del mes</h2>
             <div id="calendar"></div>
         </div>
-        <div class="">
+        
+        <div class="task-container">
             <div id="taskListContainer">
                 <h3>Tareas del día</h3>
                 <ul id="taskList"></ul>
             </div>
         </div>
     </main>
+    
     <footer class="item footer">
         My cute Calendar
     </footer>
